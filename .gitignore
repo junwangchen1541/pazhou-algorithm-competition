@@ -1,0 +1,41 @@
+# Local datasets and archives
+琶洲算法大赛-初赛数据/
+*.zip
+*.7z
+*.rar
+
+# Model artifacts and experiment outputs
+runs/
+outputs/
+checkpoints/
+weights/
+models/
+*.pt
+*.pth
+*.onnx
+*.engine
+*.safetensors
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local secrets/config
+.env
+.env.*
+!.env.example
